@@ -1,0 +1,62 @@
+body {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(https://w-dog.ru/wallpapers/10/18/556667567810056/makro-plyazh-more-voda-leto-priroda-pejzazh-volny-pesok.jpg);
+  height: 100vh;
+}
+
+div {
+  min-width: 200px;
+  min-height: 100px;
+  background-size: cover;
+  background-size: contain;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-image: url(https://www.publicdomainpictures.net/pictures/50000/velka/stripes-blue-and-yellow-background.jpg);
+}
+
+#content {
+  padding: 100px 20px;
+  margin-bottom: 0;
+  min-height: 80vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: -16px auto;
+  width: 40%;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-image: url(https://www.publicdomainpictures.net/pictures/50000/velka/stripes-blue-and-yellow-background.jpg);
+}
+
+.block {
+  position: fixed;
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+#block1 {
+  left: 30px;
+  top: 150px;
+  background-image: url(https://dslv9ilpbe7p1.cloudfront.net/ExOExM2feG3EU44RIHF3Iw_store_banner_image.jpeg);
+}
+
+#block2 {
+  right: 30px;
+  top: 250px;
+  background-image: url(https://www.downloadwallpapers.info/preview/2013/08/24/158191_this-cat-is-playing-outside_1152x864_h.jpg);
+}
